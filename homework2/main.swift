@@ -35,7 +35,7 @@ func fiveMinutesRowTest(minutes: Int) -> String {
 }
 
 func singleMinutesRowTest(minutes: Int) -> String {
-    mainProcess(lights: 11, divide: minutes % 5)
+    mainProcess(lights: 4, divide: minutes % 5)
 }
 
 // Implement main process of Clock
